@@ -1,0 +1,54 @@
+/* .headng{
+      font-size:50px;
+      margin-left: 30px;
+} */
+#modal-modal-title1{
+    font-size:15px;
+     text-align: center;
+     margin-top:-10px;
+     font-weight: 600;
+}
+.address{
+    height:35px;
+    width:100%;
+    margin-top: 15px;
+}
+.passd{
+    height:35px;
+    width:100%;
+    margin-top: 15px;
+}
+#modal-modal-description1{
+    display: flex;
+}
+.remem{
+    font-size: 12px;
+}
+.forgot{
+    font-size: 13px;
+    margin-left: 90px;
+    color: blue;
+}
+.now{
+   
+        height:45px;
+        width:100%;
+        margin-top: 15px;
+      font-weight: 600;
+      color: white;
+      background-color: black;
+}
+.google{
+    color: grey;
+    font-size: 14px;
+}
+.down{
+   border-bottom: 1px solid grey;
+   margin-top: 50px;
+}
+.dontt{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+
+}

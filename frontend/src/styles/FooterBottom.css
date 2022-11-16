@@ -1,0 +1,143 @@
+.madewell{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: -720px;
+}
+
+.fa-instagram{
+    margin-left: -560px;
+}
+
+.footer_bottom_parent {
+    margin-top: 5px;
+    height: 553.06px;
+   
+    background: rgb(240, 241, 242);
+    padding: 52px 48px 0;
+}
+
+.footer_bottom_main {
+    display: flex;
+    height: 553px;
+    gap: 200px;
+}
+
+.footer_main_left {
+    flex: 1.8;
+    height: 100%;
+}
+
+.footer_left_links {
+    width: 678px;
+    height: 279.8px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.footer_left_links div {
+    flex: 1;
+    /* border: 1px solid black; */
+    /* background: teal; */
+    padding: 0 12px;
+}
+
+.footer_links_heading {
+    list-style: none;
+}
+
+.footer_links_heading li:nth-child(1) {
+    margin-bottom: 10px;
+    font-size: 18px;
+    cursor: text;
+}
+
+.footer_links_heading li:nth-child(1):hover {
+    text-decoration: none;
+}
+
+.footer_links_heading li {
+    font-size: 13px;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 6px;
+    cursor: pointer;
+    width: fit-content;
+    border-bottom: 1px solid transparent;
+}
+
+.footer_links_heading li:hover {
+    /* border-color: black; */
+    text-decoration: underline;
+}
+
+
+.footer_socialIcons i {
+    margin-right: 20px;
+    font-size: 26px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.footer_socialIcons a {
+    text-decoration: none;
+    color: black;
+}
+
+.footerSvgIcons {
+    margin-bottom: 25px;
+}
+
+.footer_flag {
+    height: 20px;
+
+}
+
+.footer_copyRight {
+    color: #666;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: -760px;
+}
+
+.footer_main_right {
+    flex: 1;
+    height: 100%;
+}
+
+.footer_main_right_head {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.23;
+    letter-spacing: 0.3px;
+    margin-bottom: 8px;
+}
+
+.footer_main_right_des {
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: .3px;
+    color: #666;
+    font-weight: 600;
+}
+
+.footer_sign_upInput {
+    height: 34px;
+    width: 276.5px;
+    padding-left: 10px;
+    margin: 10px 0 0 0;
+}
+
+.footer_sign_upBtn {
+    height: 36px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #fff;
+    background-color: #000;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 0 8px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}

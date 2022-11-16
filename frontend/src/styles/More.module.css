@@ -1,0 +1,301 @@
+.mainParent {
+    margin-top: 60px;
+}
+
+.MainPageTop {
+ 
+    margin-bottom: 20px;
+    cursor: pointer;
+    height: 900px;
+    width: 100%;
+}
+
+.MainPage_SubTop {
+    margin: 0 81px;
+
+        height: 2300px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, 33.33%);
+}
+
+
+
+
+.SubTop_1 div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 280px;
+    gap: 10px;
+    color: #000;
+}
+
+
+
+.SubTop_2 div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 570px;
+    gap: 10px;
+    color: #000;
+    text-align: center;
+}
+
+/* .SubTop_3 {
+    background-image: url('https://www.jcrew.com/brand_creative/homepage2022/05-May2/2022may_0503_hp_w_img3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+} */
+
+.SubTop_3 div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 30px 65px;
+     padding-bottom: 630px; 
+    gap: 10px;
+    text-align: center;
+}
+
+
+
+.SubTop_4 div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: -20px;
+    gap: 10px;
+}
+
+
+.SubTop_5 div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 565px;
+    gap: 10px;
+    text-align: center;
+}
+
+.SubTop_6 div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 600px;
+    gap: 5px;
+}
+
+.mainPage_navigation {
+    height: 65.05px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigationWrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navivationTitle {
+    font-size: 34px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: Times, serif;
+}
+
+.navigationBtnWrap {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navigationBtn {
+    height: 42.47px;
+    width: 136.56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13.56px;
+    font-weight: bold;
+}
+
+.navigationBtn:hover {
+    color: #fff;
+    background-color: #666;
+    border: none;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.mainMid {
+    height: 1525.7px;
+    width: 100%;
+    background: #DDE7EF;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.headlineHed {
+    height: 181.64px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 161.6px;
+}
+
+.headImg {
+    height: 100%;
+    width: 183.05px;
+    margin-left: -500px;
+    margin-top: 200px;
+}
+
+.headDes {
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+ 
+    z-index: 0;
+    margin-left: 300px;
+    cursor: pointer;
+    color: #000;
+   
+    gap: 6px;
+}
+
+.mainMidImg {
+    height: 577.64px;
+    background: transparent;
+    display: flex;
+    gap: 30px;
+    margin: 54px 161.6px;
+}
+
+.mainMidImg div {
+    flex: 1;
+
+}
+
+.mainMidImgWrap img {
+    height: 402.73px;
+    width: 100%;
+}
+
+.mainMidH1 {
+    font-size: 17.4px;
+    margin: 26px 0 6.4px;
+    font-weight: 400;
+}
+
+.mainMidH2 {
+    font-size: 24.45px;
+    margin-top: 6.4px;
+    font-weight: 400;
+}
+
+.mainSpan {
+    font-size: 14px;
+    margin-top: 21px;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.mainMidBottom {
+    height: 470.47px;
+    /* width: 100%; */
+    margin: 0 161.6px;
+    background: transparent;
+    display: flex;
+    gap: 20px;
+}
+
+.mainMidBottom div {
+    flex: 1;
+    /* background: turquoise; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mainMidBottom div img {
+    height: 293.33px;
+    width: 100%;
+}
+
+.innerHead {
+    /* margin-top: 18.7px; */
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.innerSpan {
+    font-size: 14px;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mainAboveFooter {
+    height: 372.23px;
+    width: 100%;
+    /* background: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.aboveFooterImgWrap {
+    display: flex;
+    gap: 20px;
+    width: 90%;
+}
+
+.aboveFooterImgWrap div {
+    /* height: 259.64px; */
+    flex: 1;
+    cursor: pointer;
+    /* background: turquoise; */
+}
+
+.aboveFooterInner img {
+    /* height: 208.16px; */
+    width: 100%;
+}
+
+.aboveFooterInner div {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.YouNeed{
+   font-family: "freight-big-pro", "FreightBig Pro",Times,serif;
+}
